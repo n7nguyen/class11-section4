@@ -28,4 +28,24 @@ plot(pressure)
 plot(c(1:10))
 ```
 
+```{r}
+library(bio3d)
+ids <- c("1TND_B","1AGR_A","1TAG_A","1GG2_A","1KJY_A","4G5Q_A")
+files <- get.pdb(ids, split = TRUE)
+pdbs <- pdbaln(files, fit = TRUE)
+pdbs
+```
+
+```{r}
+pdbs
+```
+
+```{r}
+pdbs$ali[1:5, 1:8]
+```
+
+```{r}
+pdbs$resno[1:5, 1:8]
+```
+
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
