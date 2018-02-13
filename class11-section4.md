@@ -28,6 +28,6 @@ Including Plots
 
 You can also embed plots, for example:
 
-![](class11-section4_files/figure-markdown_github/pressure-1.png)
+![](class11-section4_files/figure-markdown_github/pressure-1.png)![](class11-section4_files/figure-markdown_github/pressure-2.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
